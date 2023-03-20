@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
-  margin: 20px;
-  padding: 0px;
+  margin: 30px;
+  padding: 0;
 }
 body {
   font-family: 'Poppins', sans-serif;
@@ -11,10 +11,11 @@ body {
 }
 .container1 {
   width: 750px;
-  height: 450px;
+  height: 570px;
   text-align: start;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
   margin: 0;
+  margin-right: 30px;
   background-color: #fff;
 }
 .p {
@@ -26,26 +27,30 @@ body {
  }
  .container2 {
   width: 750px;
-  height: 560px;
+  height: 780px;
   text-align: start;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
   margin: 0px;
+  margin-right: 30px;
   background-color: #fff;
  }
  .container3{
-  width: 400px;
-  height: 610px;
+  width: 460px;
+  height: 870px;
   text-align: start;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
   margin: 0;
+  margin-left: 60px;
   background-color: #fff; 
-  font-size: 13px;
+  font-size: 16px;
 }
  img{
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 1px;
-  width: 150px;
+  width: 350px;
+  height: 350px;
+  margin-top: 50px;
   display: flex;
  }
  ul {
@@ -54,22 +59,26 @@ body {
 #name {
   font-size: 16px;
   font-weight: bold;}
+ 
   .container4 {
   width: auto;
-  height: 190px;
+  height: 220px;
   text-align: start;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
   margin: 0;
+  margin-left: 60px;
   background-color: #fff; 
   font-size: 13px;
   padding: 5px;
   }
   .container5{
-  width: 400px;
-  height: 350px;
+  width: 460px;
+  height: 450px;
   text-align: start;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
   margin: 0;
+  margin-top: 5px;
+  margin-left: 60px;
   background-color: #fff; 
   font-size: 13px;
   padding: 5px;
@@ -77,15 +86,19 @@ body {
   .container6 {
     background-color: rgb(13, 184, 167);
     height: 180px;
-    width: auto;
+    width: 1225px;
+    margin-left: 85px;
+    margin-right: 20px;
     color: #fff;
     font-size: 13px;
+
   }
   .container6 {
     display: flex;
     justify-content: center;
     align-items: center;
   }
+ 
   i {
     color: #fff;
     display: flex;
@@ -105,6 +118,13 @@ body {
 #turkish {
   width: 190px;
 }
-.container1 .container3 {
-  justify-content: space-around;
+.container1 {
+  float: right;
+}
+.container3 {
+  clear: left;
+}
+.container2 {
+  clear: right;
+  float: right;
 }
