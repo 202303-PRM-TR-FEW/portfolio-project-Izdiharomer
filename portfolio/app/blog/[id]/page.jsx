@@ -35,14 +35,14 @@ const Page = () => {
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>{project.title}</h2>
-          <h3>{project.technologies.join(', ')}</h3>
+          <p className='pt-2'>{project.technologies.join(', ')}</p>
         </div>
       </div>
 
       <div className='max-w-[1240px]  mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
         <div className='col-span-4'>
-          <h2>Overview</h2>
-          <p>{project.description}</p>
+          <h2 className='pb-4'>Overview</h2>
+          <p className='opacity-80'>{project.description}</p>
           <a
             href={project.liveDemoUrl}
             target='_blank'
@@ -55,11 +55,11 @@ const Page = () => {
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4'>Github code</button>
+            <button className='px-8 py-2 mt-8'>Github code</button>
           </a>
           <div className='px-8 py-2 mt-4'>
           <Link href='/#projects'>
-            <p className='underline cursor-pointer'>Back</p>
+            <p className='underline cursor-pointer opacity-80 hover:text-blue-500'>Back</p>
           </Link>
         </div>
 
