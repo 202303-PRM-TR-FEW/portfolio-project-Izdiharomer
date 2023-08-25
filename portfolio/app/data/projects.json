@@ -34,6 +34,15 @@
     "imageUrl": "/assets/projects/movies_app.jpg",
     "liveDemoUrl": "https://main--jocular-malabi-8e541d.netlify.app/",
     "githubUrl": "https://github.com/202303-PRM-TR-FEW/movie-project-room-14/branches"
+  },
+  {
+    "id": 5,
+    "title": "Portfolio Project",
+    "description": "The Movie Explorer Web App, developed using Javascript, CSS, and APIs, offers an engaging platform for discovering movies and actors. With dynamic content fetched from The Movie Database (TMDB) API, users can explore trending movies, view details, watch trailers, and learn about actors. The app boasts an interactive UI, responsive design, and filtering options for an immersive and user-friendly experience.",
+    "technologies": ["HTML", "CSS", "Next.js", "getform.io"],
+    "imageUrl": "/assets/projects/portfolio.jpg",
+    "liveDemoUrl": "https://portfolio-project-izdiharomer-eosin.vercel.app/",
+    "githubUrl": "https://github.com/202303-PRM-TR-FEW/portfolio-project-Izdiharomer"
   }
 ]
 }

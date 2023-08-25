@@ -12,7 +12,7 @@ const Projects = () => {
           Projects
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
-        <div className='grid md:grid-cols-4 gap-2'>
+        <div className='grid md:grid-cols-3 gap-2'>
           {projects.projects.map((project) => (
             <ProjectItem
               key={project.id}

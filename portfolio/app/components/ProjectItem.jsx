@@ -13,10 +13,10 @@ const ProjectItem = ({ id, title, imageUrl, tech }) => {
   return (
     <div className='relative flex justify-center  shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#07beb8] to-[#3dccc7]'>
       <Image
-        className='rounded-xl group-hover:opacity-10 max-w-[300px] max-h-[220px]'
+        className='rounded-xl group-hover:opacity-10 w-[405px] h-[220px]'
         src={imageUrl}
         alt='project_image'
-        width={310}
+        width={390}
         height={220}
         priority
       />
