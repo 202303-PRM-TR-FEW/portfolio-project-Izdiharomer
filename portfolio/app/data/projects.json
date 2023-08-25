@@ -1,0 +1,39 @@
+{"projects": [
+  {
+    "id": 1,
+    "title": "A tip calculator",
+    "description": "This project is a bill splitting calculator web application. Users can input a bill amount, select a tip percentage, specify the number of people, and get calculated tip and total amounts per person.",
+    "technologies": ["HTML", "CSS","Next.js"],
+    "imageUrl": "/assets/projects/tip_calculator.png",
+    "liveDemoUrl": "https://main--cosmic-fudge-1581ce.netlify.app/",
+    "githubUrl": "https://github.com/202303-PRM-TR-FEW/nextjs-tip-calculator-3"
+  },
+  {
+    "id": 2,
+    "title": "Todo App",
+    "description": "This ToDo App, developed using React, CSS, and Firebase, enables task management with checkboxes for completion status and a delete button. Task text dynamically adjusts styling based on completion.",
+    "technologies": ["HTML","CSS", "React", "Firebase"],
+    "imageUrl": "/assets/projects/todo_app.png",
+    "liveDemoUrl": "https://todo-react-firebase-fawn.vercel.app/",
+    "githubUrl": "https://github.com/Izdiharomer/todo-react-firebase"
+  },
+  {
+    "id": 3,
+    "title": "Learning App",
+    "description": "The app is developed using Next.js, Tailwind CSS, and Firebase. This platform centers around a diverse range of courses that users can access to enhance their learning. The app hosts an extensive collection of courses, offering users an enriching opportunity to watch, engage, and learn from various subjects.",
+    "technologies": ["HTML", "Tailwind CSS", "Next.js", "Firebase", "Redux"],
+    "imageUrl": "/assets/projects/courses_app.jpg",
+    "liveDemoUrl": "https://gravestone-gzihmh.vercel.app/",
+    "githubUrl": "https://github.com/202303-PRM-TR-FEW/Capstone-GZIHMH/"
+  },
+  {
+    "id": 4,
+    "title": "Movies Project",
+    "description": "The Movie Explorer Web App, developed using Javascript, CSS, and APIs, offers an engaging platform for discovering movies and actors. With dynamic content fetched from The Movie Database (TMDB) API, users can explore trending movies, view details, watch trailers, and learn about actors. The app boasts an interactive UI, responsive design, and filtering options for an immersive and user-friendly experience.",
+    "technologies": ["Javascript", "HTML", "CSS", "The Movie Database (TMDB) API"],
+    "imageUrl": "/assets/projects/movies_app.jpg",
+    "liveDemoUrl": "https://main--jocular-malabi-8e541d.netlify.app/",
+    "githubUrl": "https://github.com/202303-PRM-TR-FEW/movie-project-room-14/branches"
+  }
+]
+}

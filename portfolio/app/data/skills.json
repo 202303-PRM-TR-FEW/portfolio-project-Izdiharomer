@@ -1,0 +1,109 @@
+{
+  "skills": [
+    {
+      "title": "Core Web Technologies",
+      "images": [
+        {
+          "src": "/html.svg",
+          "alt": "HTML"
+        },
+        {
+          "src": "/css.svg",
+          "alt": "CSS"
+        },
+        {
+          "src": "/js.svg",
+          "alt": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "Frameworks and Libraries",
+      "images": [
+        {
+          "src": "/react.svg",
+          "alt": "React"
+        },
+        {
+          "src": "/next.svg",
+          "alt": "Next.js"
+        }
+      ]
+    },
+    {
+      "title": "Version Control",
+      "images": [
+        {
+          "src": "/git.svg",
+          "alt": "Git"
+        },
+        {
+          "src": "/github.svg",
+          "alt": "GitHub"
+        }
+      ]
+    },
+    {
+      "title": "Package Managers",
+      "images": [
+        {
+          "src": "/npm.svg",
+          "alt": "npm"
+        }
+      ]
+    },
+    {
+      "title": "State Management",
+      "images": [
+        {
+          "src": "/redux.svg",
+          "alt": "Redux"
+        }
+      ]
+    },
+    {
+      "title": "Testing",
+      "images": [
+        {
+          "src": "/assets/skills/jest.png",
+          "alt": "Jest"
+        }
+      ]
+    },
+    {
+      "title": "Firebase",
+      "images": [
+        {
+          "src": "/firebase.svg",
+          "alt": "Firebase"
+        }
+      ]
+    },
+    {
+      "title": "Deployment",
+      "images": [
+        {
+          "src": "/vercel.svg",
+          "alt": "Vercel"
+        },
+        {
+          "src": "/assets/skills/Netlify.png",
+          "alt": "Netlify"
+        }
+      ]
+    },
+    {
+      "title": "Responsive Frameworks",
+      "images": [
+        {
+          "src": "/bootstrap.svg",
+          "alt": "Bootstrap"
+        },
+        {
+          "src": "/assets/skills/tailwind.png",
+          "alt": "Tailwind_CSS"
+        }
+      ]
+    }
+  ]
+}
