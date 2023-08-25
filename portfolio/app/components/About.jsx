@@ -30,7 +30,7 @@ const About = () => {
             skilled developers.
           </p>
           <Link href='/#projects'>
-            <p className='py-2 text-gray-600 underline cursor-pointer'>
+            <p className='py-2 text-gray-600 underline cursor-pointer hover:text-blue-500'>
               Check out some of my latest projects.
             </p>
           </Link>
