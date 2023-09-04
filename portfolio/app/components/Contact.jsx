@@ -27,7 +27,7 @@ const Contact = () => {
                 /> 
               </div>
               <div>
-                <h2 className='py-2'>Clint Briley</h2>
+                <h2 className='py-2'>Izdihar Omer</h2>
                 <p>Front-End Developer</p>
                 <p className='py-4'>
                   I am available for freelance or full-time positions. Contact
