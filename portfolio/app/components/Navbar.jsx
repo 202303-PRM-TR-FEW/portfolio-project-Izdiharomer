@@ -61,9 +61,9 @@ function Navbar() {
           <li className='ml-10 text-sm uppercase hover:border-b hover:text-blue-500'>
             <Link href='/#projects'>Projects</Link>
           </li>
-          <li className='ml-10 text-sm uppercase hover:border-b hover:text-blue-500'>
+          {/* <li className='ml-10 text-sm uppercase hover:border-b hover:text-blue-500'>
             <Link href='/resume'>Resume</Link>
-          </li>
+          </li> */}
           <li className='ml-10 text-sm uppercase hover:border-b hover:text-blue-500'>
             <Link href='/#contact'>Contact</Link>
           </li>

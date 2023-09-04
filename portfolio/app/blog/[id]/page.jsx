@@ -1,27 +1,20 @@
-
-"use client" 
 import Image from 'next/image';
 import React from 'react';
 import Link from 'next/link';
 import projects from '../../data/projects.json';
 
-const Page = () => {
-//const Page = ({ projectId }) => {
-  // const getId = (id) => {
-  //   const project = projects.find((p) => p.id === parseInt(id));
-  //   return project ? project.id : '';
-  // };
+const Page = ({ id }) => {
+  // Find the project based on the ID
+  const project = getProjectById(id);
 
-  // const projectIDFromFunction = getId(projectId);
+  function getProjectById(id) {
+    return projects.projects.find((project) => project.id === id);
+  }
 
-  // // Find the project based on the ID.
-  // const project = projects.projects.find((p) => p.id === parseInt(projectIDFromFunction));
+  if (!project) {
+    return <div>No project found with ID {id}</div>;
+  }
 
-  // if (!project) {
-  //   return <div>Project not found</div>;
-  // }
-  const project = projects.projects.find((p) => p.id === 3);
-  
   return (
     <div className='w-full' key={project.id}>
       <div className='w-screen h-[50vh] relative'>
@@ -58,15 +51,12 @@ const Page = () => {
             <button className='px-8 py-2 mt-8'>Github code</button>
           </a>
           <div className='px-8 py-2 mt-4'>
-          <Link href='/#projects'>
-            <p className='underline cursor-pointer opacity-80 hover:text-blue-500'>Back</p>
-          </Link>
+            <Link href='/#projects'>
+              <p className='underline cursor-pointer opacity-80 hover:text-blue-500'>Back</p>
+            </Link>
+          </div>
         </div>
-
-        </div >
-
       </div>
-      
     </div>
   );
 };
