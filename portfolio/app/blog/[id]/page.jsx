@@ -1,10 +1,22 @@
+"use client"
 import Image from 'next/image';
 import React from 'react';
 import Link from 'next/link';
 import projects from '../../data/projects.json';
+//import { useRouter } from 'next/navigation';
+//test 123
+const Page = ({id}) => {
+   //Find the project based on the ID
+  // const router = useRouter();
+  // const { id } = router.query;
 
-const Page = ({ id }) => {
-  // Find the project based on the ID
+  
+  // const project = projects.projects.find((p) => p.id === parseInt(id));
+
+  // if (!project) {
+  //   return <div>No project found with ID: {id}</div>;
+  // }
+
   const project = getProjectById(id);
 
   function getProjectById(id) {
@@ -41,14 +53,14 @@ const Page = ({ id }) => {
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4 mr-8'>Live</button>
+            <button className='pink_button px-8 py-2 mt-4 mr-8'>Live</button>
           </a>
           <a
             href={project.githubUrl}
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-8'>Github code</button>
+            <button className='px-8 py-2 mt-8 pink_button'>Github code</button>
           </a>
           <div className='px-8 py-2 mt-4'>
             <Link href='/#projects'>

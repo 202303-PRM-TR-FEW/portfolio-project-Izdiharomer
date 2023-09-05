@@ -136,7 +136,7 @@ const Contact = () => {
                     name='message'
                   ></textarea>
                 </div>
-                <button className='w-full p-2 text-gray-100 mt-4'>
+                <button className='w-full p-2 text-gray-100 mt-4 pink_button'>
                   Send Message
                 </button>
               </form>

@@ -2,6 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
+/* [data-theme='dark'] {
+  --background: #000;
+  --text-primary: #fff;
+  --text-secondary: #8e05c2;
+  --accent: #8e05c2;
+  --border: #808080;
+  --form-bg: #191919;
+} */
+
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* .dark-mode button {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}  */
+.mode-toggle-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  height: 10 px;
+  width: auto;
+}
+
+
+ :root {
+  --background-color: #fff;
+  --text-color: #333;
+}
+
+:root {
+  --background-color: #333;
+  --text-color: #fff;
+} 
+
+
 html,
 body {
   padding: 0;
@@ -45,7 +83,7 @@ html {
     @apply cursor-pointer
   }
 
-  button {
+  .pink_button {
     @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#ff758f] to-[#c9184a] text-white
   }
 }
