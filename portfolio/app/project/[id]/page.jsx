@@ -3,24 +3,15 @@ import Image from 'next/image';
 import React from 'react';
 import Link from 'next/link';
 import projects from '../../data/projects.json';
-//import { useRouter } from 'next/navigation';
-//test 123
+
 const Page = ({id}) => {
-   //Find the project based on the ID
-  // const router = useRouter();
-  // const { id } = router.query;
-
-  
-  // const project = projects.projects.find((p) => p.id === parseInt(id));
-
-  // if (!project) {
-  //   return <div>No project found with ID: {id}</div>;
-  // }
-
+ 
+ 
   const project = getProjectById(id);
 
   function getProjectById(id) {
-    return projects.projects.find((project) => project.id === id);
+    //return projects.projects.find((project) => project.id === id);
+    return projects.projects.find((project) => project.id === 5);
   }
 
   if (!project) {

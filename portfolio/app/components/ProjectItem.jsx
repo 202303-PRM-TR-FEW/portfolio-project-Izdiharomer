@@ -4,11 +4,12 @@ import Link from 'next/link';
 import projects from '../data/projects.json';
 
 const ProjectItem = ({ id, title, imageUrl, tech }) => {
-  const project = projects.projects.find((p) => p.id === parseInt(id));
+  //const project = projects.projects.find((p) => p.id === parseInt(id));
+  // const project = projects.projects.find((p) => p.id === 1);
 
-  if (!project) {
-    return <div>No project found with id {id}</div>;
-  }
+  // // if (!project) {
+  // //   return <div>No project found with id {id}</div>;
+  // // }
 
   return (
     <div className='relative flex justify-center  shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#07beb8] to-[#3dccc7]'>
@@ -26,7 +27,7 @@ const ProjectItem = ({ id, title, imageUrl, tech }) => {
           {tech}
         </p>
         {/* Use Link to create a dynamic link */}
-        <Link href={`/blog/${project.id}`}>
+        <Link href={`/project/${id}`}>
           <p className='text-center py-1 m-1 rounded-lg bg-white text-gray-700 font-bold text-sm cursor-pointer'>
             <span className='px-3 py-2'>More Info</span>
           </p>
