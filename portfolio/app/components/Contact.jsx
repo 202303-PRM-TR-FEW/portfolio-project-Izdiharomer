@@ -6,10 +6,10 @@ import github from '@/public/github.svg';
 import linkedin from '@/public/linkedin.svg';
 import cv from '@/public/cv.svg';
 
-const Contact = () => {
+const Contact = ({ isDarkMode, setIsDarkMode }) => {
   return (
     <div id='contact' className='w-full lg:h-screen'>
-      <div className='max-w-[1200px] m-auto px-2 py-16 w-full '>
+      <div className='max-w-[1200px] m-auto px-2 py-1 w-full '>
         <p className='text-xl tracking-widest uppercase text'>
           Contact
         </p>
@@ -43,13 +43,7 @@ const Contact = () => {
                     rel='noreferrer'
                   >
                     <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <Image
-                  className='rounded-xl hover:scale-105 ease-in duration-300'
-                  src={linkedin}
-                  alt='/'
-                  width={33}
-                  height={33}
-                />
+                    <Image className={`rounded-xl hover:scale-105 ease-in duration-300 ${isDarkMode ? 'bg-white' : ''}`} src={linkedin} alt='/' width={33} height={33}/>
                     </div>
                   </a>
                   <a
@@ -58,26 +52,14 @@ const Contact = () => {
                     rel='noreferrer'
                   >
                     <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <Image
-                  className='rounded-xl hover:scale-105 ease-in duration-300'
-                  src={github}
-                  alt='/'
-                  width={33}
-                  height={33}
-                />
+                    <Image className={`rounded-xl hover:scale-105 ease-in duration-300 ${ isDarkMode ? 'bg-white' : ''}`} src={cv} alt='/' width={33} height={33}/>
                     </div>
                   </a>
                   <Link href='/resume'>
                     <div>
-                      <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300'>
-                      <Image
-                  className='rounded-xl hover:scale-105 ease-in duration-300'
-                  src={cv}
-                  alt='/'
-                  width={33}
-                  height={33}
-                />
-                      </div>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300'>
+                      <Image className={`rounded-xl hover:scale-105 ease-in duration-300 ${isDarkMode ? 'bg-white' : ''}`} src={cv} alt='/' width={33} height={33}/>
+                    </div>
                     </div>
                   </Link>
                 </div>
