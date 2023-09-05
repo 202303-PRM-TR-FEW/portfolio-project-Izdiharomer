@@ -20,7 +20,7 @@
   {
     "id": 3,
     "title": "Learning App",
-    "description": "The app is developed using Next.js, Tailwind CSS, and Firebase. This platform centers around a diverse range of courses that users can access to enhance their learning. The app hosts an extensive collection of courses, offering users an enriching opportunity to watch, engage, and learn from various subjects. My contributions to the Learning App project reflect my expertise in Next.js, Tailwind CSS, Firebase integration, responsive design, and creating user-centric interfaces. These skills combined to deliver an educational platform that offers an exceptional learning experience.",
+    "description": "The app is a platform centers around a diverse range of courses that users can access to enhance their learning. The app hosts an extensive collection of courses, offering users an enriching opportunity to watch, engage, and learn from various subjects. My contributions to the Learning App project reflect my expertise in Next.js, Tailwind CSS, Firebase integration and responsive design.",
     "technologies": ["HTML", "Tailwind CSS", "Next.js", "Firebase", "Redux"],
     "imageUrl": "/assets/projects/courses_app.jpg",
     "liveDemoUrl": "https://gravestone-gzihmh.vercel.app/",
@@ -28,9 +28,9 @@
   },
   {
     "id": 4,
-    "title": "Movies Project",
-    "description": "The Movie Explorer Web App, developed using Javascript, CSS, and APIs, offers an engaging platform for discovering movies and actors. With dynamic content fetched from The Movie Database (TMDB) API, users can explore trending movies, view details, watch trailers, and learn about actors. The app boasts an interactive UI, responsive design, and filtering options for an immersive and user-friendly experience. This project allowed me to collaborate effectively with a talented team, showcase my frontend development skills, and contribute to creating an immersive and user-friendly movie exploration experience. ",
-    "technologies": ["Javascript", "HTML", "CSS", "The Movie Database (TMDB) API"],
+    "title": "Movies Project (Movie Database TMDB)",
+    "description": "The Movie Explorer Web App offers an engaging platform for discovering movies and actors. With dynamic content fetched from  API, users can explore trending movies, view details, watch trailers, and learn about actors. This project allowed me to collaborate effectively with a talented team and showcase my frontend development skills ",
+    "technologies": ["Javascript", "HTML", "CSS", "API integration"],
     "imageUrl": "/assets/projects/movies_app.jpg",
     "liveDemoUrl": "https://main--jocular-malabi-8e541d.netlify.app/",
     "githubUrl": "https://github.com/202303-PRM-TR-FEW/movie-project-room-14/branches"
