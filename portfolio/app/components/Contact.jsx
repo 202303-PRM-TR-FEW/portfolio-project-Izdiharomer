@@ -66,8 +66,7 @@ const Contact = ({ isDarkMode, setIsDarkMode }) => {
               </div>
             </div>
           </div>
-
-          <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
+          <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-0'>
             <div className='p-4'>
               <form
                 action='https://getform.io/f/a0e05b8f-1e4f-4350-9774-1cf82c262b72'

@@ -49,11 +49,10 @@ function Navbar({ isDarkMode, setIsDarkMode }) {
           <Image
             src={NavLogo}
             alt='/'
-            width='30'
-            height='30'
-            className='cursor-pointer'
+            width='43'
+            height='43'
+            className='cursor-pointer '
           />
-        
       </Link>
       <div>
         <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
