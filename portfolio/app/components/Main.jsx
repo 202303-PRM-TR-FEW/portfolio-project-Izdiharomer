@@ -15,7 +15,7 @@ function Main() {
         <p className='py-4 gray sm:max-w-[70%] m-auto'>
         I am passionate about creating user-friendly interfaces that provide a seamless and enjoyable experience for users. Through my expertise in frontend development, I strive to craft interfaces that are not only visually appealing but also intuitive and easy to navigate
         </p> 
-        <a href="/assets/myresume.pdf" download>
+        <a href="/assets/izdihar-resume.pdf" download>
           <button className='pink_button p-2'>Download CV</button>
         </a>
       </div>
