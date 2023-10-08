@@ -7,9 +7,9 @@ const ProjectItem = ({ id, title, imageUrl, tech, liveDemoUrl, description, gith
   
 
   return (
-    <div className='relative flex justify-center m-2 shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#07beb8] to-[#3dccc7]'>
+    <div className='relative flex justify-center m-2 shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#07beb5] to-[#3dccc7]'>
       <Image
-        className='rounded-xl group-hover:opacity-10 w-[405px] h-[220px]'
+        className='rounded-xl group-hover:opacity-10 w-[410px] h-[240px]'
         src={imageUrl}
         alt='project_image'
         width={390}
