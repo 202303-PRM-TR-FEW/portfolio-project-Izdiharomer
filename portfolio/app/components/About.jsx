@@ -12,7 +12,7 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 gray'>
-            I specialize in building web and mobile responsive front-end UI applications
+            I specialize in building web responsive front-end UI applications
             that connect with API’s and other backend technologies. I’m
             passionate about learning new technologies and understand there is
             more than one way to accomplish a task. Though I am most proficient
@@ -24,10 +24,7 @@ const About = () => {
             which is an immersive program designed to equip individuals with the skills and
             knowledge needed to excel in frontend web development. Through instructor-led classes and 
             a supportive community, participants learn not only technical aspects but also essential power
-            skills like communication, teamwork, and leadership. The bootcamp emphasizes inclusivity and offers 
-            a safe and respectful learning environment. With a diverse cohort of motivated students, this program 
-            fosters personal growth and provides opportunities for graduates to contribute to their communities as 
-            skilled developers.
+            skills like communication, teamwork, and leadership.
           </p>
           <Link href='/#projects'>
             <p className='py-2 gray underline cursor-pointer hover:text-blue-500'>
@@ -35,7 +32,7 @@ const About = () => {
             </p>
           </Link>
         </div>
-        <div className='w-full h-auto m-auto shadow-xl shadow-pink-400 rounded-xl flex items-center justify-center hover:scale-105 ease-in duration-300'>
+        <div className='w-full h-auto m-auto shadow-xl shadow-black rounded-lg flex items-center justify-center hover:scale-105 ease-in duration-300'>
           <Image src= "/assets/profile/my_photo.jpg" width={600} height={500} className='rounded-xl' alt='my profile image' />
         </div>
       </div>
