@@ -13,11 +13,11 @@ const Skills = () => {
           Skills
         </p>
         <h2 className='py-4'>What I Can Do</h2>
-        <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
+        <div className='grid grid-cols-2 lg:grid-cols-4 gap-4'>
           {skills.skills.map((skill, skillIndex) => (
             <div
               key={skillIndex}
-              className='p-4 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'
+              className='p-1 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'
             >
               <div
                 className='grid grid-cols-1 gap-2 justify-center items-center w-full h-full'
@@ -38,7 +38,7 @@ const Skills = () => {
                         width={64}
                         height={64}
                         alt={image.alt}
-                        className='w-[44px] h-[38px]'
+                        className='w-[54px] h-[54px] bg-[#fff] rounded-full p-2'
                       />
                       {hoveredText === image.alt && (
                         <div className='absolute  p-1 text-sm rounded-lg shadow-md'>
