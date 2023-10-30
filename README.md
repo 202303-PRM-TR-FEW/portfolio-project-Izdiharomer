@@ -9,21 +9,21 @@ Welcome to my portfolio! This is where I showcase my front-end development skill
 ## Technologies Used
 -HTML5 <br>
 -CSS3 <br>
--JavaScript (ES6+) 
--React.js 
--Next.js 
--Responsive Web Design 
--Tailwind CSS 
--Git and GitHub 
--And more... 
+-JavaScript (ES6+) <br> 
+-React.js <br>
+-Next.js  <br>
+-Responsive Web Design <br>
+-Tailwind CSS <br>
+-Git and GitHub <br>
+-And more... <br>
 
  ## Visit My Portfolio:
  [Explore my live portfolio website.]( https://portfolio-project-izdiharomer-eosin.vercel.app/)
 
  ## Contact
-[Email](ezdiharomerrrr@gmail.com)
-[LinkedIn](https://www.linkedin.com/in/izdihar-omar-a09373242/)
-[GitHub](https://github.com/Izdiharomer)
+[Email](ezdiharomerrrr@gmail.com) <br>
+[LinkedIn](https://www.linkedin.com/in/izdihar-omar-a09373242/) <br>
+[GitHub](https://github.com/Izdiharomer) <br>
 
 ## Author
 I'm Izdihar Omer, a passionate front-end developer with a love for creating beautiful and functional web experiences.
