@@ -18,12 +18,12 @@ Welcome to my portfolio! This is where I showcase my front-end development skill
 -And more... 
 
  ## Visit My Portfolio:
- [Explore my live portfolio website.] ( https://portfolio-project-izdiharomer-eosin.vercel.app/)
+ [Explore my live portfolio website.]( https://portfolio-project-izdiharomer-eosin.vercel.app/)
 
  ## Contact
-[Email] (ezdiharomerrrr@gmail.com)
-[LinkedIn] (https://www.linkedin.com/in/izdihar-omar-a09373242/)
-[GitHub] ](https://github.com/Izdiharomer)
+[Email](ezdiharomerrrr@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/izdihar-omar-a09373242/)
+[GitHub](https://github.com/Izdiharomer)
 
 ##Author
 I'm Izdihar Omer, a passionate front-end developer with a love for creating beautiful and functional web experiences.
