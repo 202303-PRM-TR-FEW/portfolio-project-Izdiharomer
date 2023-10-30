@@ -7,8 +7,8 @@ Welcome to my portfolio! This is where I showcase my front-end development skill
 3. User-friendly and easy to navigate.
 
 ## Technologies Used
--HTML5 
--CSS3 
+-HTML5 <br>
+-CSS3 <br>
 -JavaScript (ES6+) 
 -React.js 
 -Next.js 
@@ -25,6 +25,6 @@ Welcome to my portfolio! This is where I showcase my front-end development skill
 [LinkedIn](https://www.linkedin.com/in/izdihar-omar-a09373242/)
 [GitHub](https://github.com/Izdiharomer)
 
-##Author
+## Author
 I'm Izdihar Omer, a passionate front-end developer with a love for creating beautiful and functional web experiences.
 Feel free to explore my work and connect with me. I look forward to new opportunities and collaborations in the world of front-end development.
