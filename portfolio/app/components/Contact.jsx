@@ -5,6 +5,7 @@ import contact from '@/public/assets/contacts/contact.jpg';
 import github from '@/public/github.svg';
 import linkedin from '@/public/linkedin.svg';
 import cv from '@/public/cv.svg';
+import EmailCopyButton from './EmailCopyButton'
 
 const Contact = ({ isDarkMode, setIsDarkMode }) => {
   return (
@@ -35,8 +36,9 @@ const Contact = ({ isDarkMode, setIsDarkMode }) => {
                 </p>
                 <div className='flex flex-col gap-1'>
                   <em className='flex flex-row'> 
-                    <Image src='/assets/mail.svg' width={25} height={25} alt='mail.svg' className='w-[20px] h-[20px] bg-[#fff] rounded-full m-1'/>
-                    <a href='mailto:ezdiharomerrrr@gmail.com'>ezdiharomerrrr@gmail.com</a>
+                    {/* <Image src='/assets/mail.svg' width={25} height={25} alt='mail.svg' className='w-[20px] h-[20px] bg-[#fff] rounded-full m-1'/>
+                    <a href='mailto:ezdiharomerrrr@gmail.com'>ezdiharomerrrr@gmail.com</a> */}
+                    <EmailCopyButton/>
                   </em>
                   <em className='flex flex-row'> 
                     <Image src='/assets/whatsapp.svg' width={25} height={25} alt='whatsapp.svg' className='w-[20px] h-[20px] bg-[#fff] rounded-full m-1'/>
