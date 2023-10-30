@@ -9,15 +9,15 @@ Welcome to my portfolio! This is where I showcase my front-end development skill
 3. User-friendly and easy to navigate.
 
 ## Technologies Used
-HTML5
-CSS3
-JavaScript (ES6+)
-React.js
-Next.js
-Responsive Web Design
-Tailwind CSS
-Git and GitHub
-And more...
+-HTML5
+-CSS3
+-JavaScript (ES6+)
+-React.js
+-Next.js
+-Responsive Web Design
+-Tailwind CSS
+-Git and GitHub
+-And more...
 
  ## Visit My Portfolio:
  Explore my live portfolio website. https://portfolio-project-izdiharomer-eosin.vercel.app/
