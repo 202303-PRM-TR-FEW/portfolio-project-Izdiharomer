@@ -11,12 +11,12 @@ function Main() {
         <h1 className='py-4 text-gray-700'>
           Hi, I&#39;m <span className='text-[#F652A0]'> Izdihar</span>
         </h1>
-        <h1 className='py-2 text-gray-700'>A Front-End Web Developer</h1>
+        <h1 className='py-2 text-gray-700'>Front-End Web Developer</h1>
         <p className='py-4 gray sm:max-w-[70%] m-auto'>
         I am passionate about creating user-friendly interfaces that provide a seamless and enjoyable experience for users. Through my expertise in frontend development, I strive to craft interfaces that are not only visually appealing but also intuitive and easy to navigate
         </p> 
         <a href="/assets/izdihar-resume.pdf" download>
-          <button className='pink_button p-2'>Download CV</button>
+          <button className='pink_button p-2 text-bold bg-transparent'>Download CV</button>
         </a>
       </div>
     </div>

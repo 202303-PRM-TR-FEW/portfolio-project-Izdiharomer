@@ -59,7 +59,7 @@ html {
   }
 
   .pink_button {
-    @apply shadow-md shadow-gray-400 rounded-xl uppercase bg-[#F652A0] text-white;
+    @apply shadow-md shadow-gray-400 rounded-xl uppercase bg-white text-[#F652A0];
   }
 }
 
