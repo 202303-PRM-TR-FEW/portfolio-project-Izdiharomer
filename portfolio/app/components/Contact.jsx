@@ -9,7 +9,7 @@ import EmailCopyButton from './EmailCopyButton'
 
 const Contact = ({ isDarkMode, setIsDarkMode }) => {
   return (
-    <div id='contact' className='w-full lg:h-screen '>
+    <div id='contact' className='w-full lg:h-screen mb-14'>
       <div className='max-w-[1200px] m-auto px-2 py-1 w-full'>
         <p className='text-xl tracking-widest uppercase text'>
           Contact
@@ -65,7 +65,7 @@ const Contact = ({ isDarkMode, setIsDarkMode }) => {
                     <Image className={`rounded-xl hover:scale-105 ease-in duration-300 ${ isDarkMode ? 'bg-white' : ''}`} src={github} alt='/' width={33} height={33}/>
                     </div>
                   </a>
-                  <Link href="/assets/izdihar-resume.pdf" >
+                  <Link href="/assets/izdihar-resume.pdf" id='resume' >
                     <div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-3 bg-[#ecf0f3] cursor-pointer hover:scale-110 ease-in duration-300'>
                       <Image className={`rounded-xl hover:scale-105 ease-in duration-300 ${isDarkMode ? 'bg-white' : ''}`} src={cv} alt='/' width={33} height={33}/>
