@@ -1,3 +1,5 @@
+# Izdihar Omer's portfolio
+
 ## Overview
 Welcome to my portfolio! This is where I showcase my front-end development skills, projects, and expertise. Feel free to explore my work and get in touch if you'd like to collaborate or learn more about my projects.
 
