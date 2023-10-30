@@ -35,9 +35,7 @@ const Contact = ({ isDarkMode, setIsDarkMode }) => {
                   me and let&apos;s talk.
                 </p>
                 <div className='flex flex-col gap-1'>
-                  <em className='flex flex-row'> 
-                    {/* <Image src='/assets/mail.svg' width={25} height={25} alt='mail.svg' className='w-[20px] h-[20px] bg-[#fff] rounded-full m-1'/>
-                    <a href='mailto:ezdiharomerrrr@gmail.com'>ezdiharomerrrr@gmail.com</a> */}
+                  <em> 
                     <EmailCopyButton/>
                   </em>
                   <em className='flex flex-row'> 

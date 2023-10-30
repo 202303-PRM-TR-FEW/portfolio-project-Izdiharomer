@@ -19,30 +19,30 @@ class EmailCopyButton extends Component {
       document.execCommand('copy');
       document.body.removeChild(textArea);
 
-      // Show the "Copied" message
       this.setState({ isCopied: true });
 
-      // Hide the "Copied" message after a brief delay (e.g., 3 seconds)
       setTimeout(() => {
         this.setState({ isCopied: false });
-      }, 3000);
+      }, 2000);
     }
   };
 
   render() {
     return (
       <div className='flex flex-row justify-between items-between gap-4'>
-        <p>
+        <p className='flex flex-row'>
          {' '}
+          <Image src='/assets/mail.svg' width={25} height={25} alt='mail.svg' className='w-[20px] h-[20px] bg-[#fff] rounded-full m-1'/> 
           <a href="mailto:ezdiharomerrrr@gmail.com">ezdiharomerrrr@gmail.com</a>
         </p>
         <button onClick={this.copyEmailToClipboard}>                    
           <Image src='/assets/contacts/copy.svg' width={25} height={25} alt='copy.svg' className='w-[20px] h-[20px] bg-[#fff] rounded-full m-1'/>
         </button>
-        {this.state.isCopied && <span>Copied</span>}
+        {this.state.isCopied && <span className='text-sm'>Copied</span> }
       </div>
     );
   }
 }
 
 export default EmailCopyButton;
+
