@@ -4,6 +4,9 @@ import Link from 'next/link';
 import projects from '../data/projects.json';
 
 const ProjectItem = ({ id, title, imageUrl, tech, liveDemoUrl, description, githubUrl}) => {
+  let number = [1, 2];           // Assigns the value 10 to the variable number
+  number = Math.round(number);  // Rounds the number and updates the variable with the rounded value
+  console.log(number);       // Logs the rounded value, which is now 10
   
 
   return (
