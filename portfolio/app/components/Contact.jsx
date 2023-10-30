@@ -19,13 +19,13 @@ const Contact = ({ isDarkMode, setIsDarkMode }) => {
           <div className='col-span-3 lg:col-span-2 bg-[#fff] w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
             <div className='lg:p-4 h-full '>
               <div>
-                 <Image
+                <Image
                   className='rounded-xl hover:scale-105 ease-in duration-300'
                   src={contact}
                   alt='/'
                   width={400}
                   height={400}
-                /> 
+                />
               </div>
               <div>
                 <h2 className='py-2'>Izdihar Omer</h2>
@@ -35,11 +35,11 @@ const Contact = ({ isDarkMode, setIsDarkMode }) => {
                   me and let&apos;s talk.
                 </p>
                 <div className='flex flex-col gap-1'>
-                  <em> 
-                    <EmailCopyButton/>
+                  <em>
+                    <EmailCopyButton />
                   </em>
-                  <em className='flex flex-row'> 
-                    <Image src='/assets/whatsapp.svg' width={25} height={25} alt='whatsapp.svg' className='w-[20px] h-[20px] bg-[#fff] rounded-full m-1'/>
+                  <em className='flex flex-row'>
+                    <Image src='/assets/whatsapp.svg' width={25} height={25} alt='whatsapp.svg' className='w-[20px] h-[20px] bg-[#fff] rounded-full m-1' />
                     <tel>+90 941 887 8291</tel>
                   </em>
                 </div>
@@ -53,7 +53,7 @@ const Contact = ({ isDarkMode, setIsDarkMode }) => {
                     rel='noreferrer'
                   >
                     <div className='rounded-full shadow-lg shadow-gray-400 bg-[#ecf0f3] p-3 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <Image className={`rounded-xl hover:scale-105 ease-in duration-300  ${isDarkMode ? 'bg-white' : ''}`} src={linkedin} alt='/' width={33} height={33}/>
+                      <Image className={`rounded-xl hover:scale-105 ease-in duration-300  ${isDarkMode ? 'bg-white' : ''}`} src={linkedin} alt='/' width={33} height={33} />
                     </div>
                   </a>
                   <a
@@ -62,14 +62,14 @@ const Contact = ({ isDarkMode, setIsDarkMode }) => {
                     rel='noreferrer'
                   >
                     <div className='rounded-full shadow-lg shadow-gray-400 bg-[#ecf0f3] p-3 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <Image className={`rounded-xl hover:scale-105 ease-in duration-300 ${ isDarkMode ? 'bg-white' : ''}`} src={github} alt='/' width={33} height={33}/>
+                      <Image className={`rounded-xl hover:scale-105 ease-in duration-300 ${isDarkMode ? 'bg-white' : ''}`} src={github} alt='/' width={33} height={33} />
                     </div>
                   </a>
                   <Link href="/assets/izdihar-resume.pdf" id='resume' >
                     <div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 bg-[#ecf0f3] cursor-pointer hover:scale-110 ease-in duration-300'>
-                      <Image className={`rounded-xl hover:scale-105 ease-in duration-300 ${isDarkMode ? 'bg-white' : ''}`} src={cv} alt='/' width={33} height={33}/>
-                    </div>
+                      <div className='rounded-full shadow-lg shadow-gray-400 p-3 bg-[#ecf0f3] cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <Image className={`rounded-xl hover:scale-105 ease-in duration-300 ${isDarkMode ? 'bg-white' : ''}`} src={cv} alt='/' width={33} height={33} />
+                      </div>
                     </div>
                   </Link>
                 </div>
@@ -127,7 +127,7 @@ const Contact = ({ isDarkMode, setIsDarkMode }) => {
                     name='message'
                   ></textarea>
                 </div>
-                <button className='w-full p-2 text-gray-100 mt-4 pink_button'>
+                <button className='w-full p-2 text-gray-500 mt-4 pink_button'>
                   Send Message
                 </button>
               </form>
