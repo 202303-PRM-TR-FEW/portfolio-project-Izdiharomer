@@ -33,6 +33,16 @@ const Contact = ({ isDarkMode, setIsDarkMode }) => {
                   I am available for freelance or full-time positions. Contact
                   me and let&apos;s talk.
                 </p>
+                <div className='flex flex-col gap-1'>
+                  <em className='flex flex-row'> 
+                    <Image src='/assets/mail.svg' width={25} height={25} alt='mail.svg' className='w-[20px] h-[20px] bg-[#fff] rounded-full m-1'/>
+                    <a href='mailto:ezdiharomerrrr@gmail.com'>ezdiharomerrrr@gmail.com</a>
+                  </em>
+                  <em className='flex flex-row'> 
+                    <Image src='/assets/whatsapp.svg' width={25} height={25} alt='whatsapp.svg' className='w-[20px] h-[20px] bg-[#fff] rounded-full m-1'/>
+                    <tel>+90 941 887 8291</tel>
+                  </em>
+                </div>
               </div>
               <div>
                 <p className='uppercase pt-8'>Connect With Me</p>
@@ -77,7 +87,7 @@ const Contact = ({ isDarkMode, setIsDarkMode }) => {
                   <div className='flex flex-col'>
                     <label className='uppercase text-sm py-1'>Name</label>
                     <input
-                      className='border-2 rounded-lg p-1 flex border-gray-300 bg-[#ecf0f3]'
+                      className='border-2 rounded-lg p-1  flex border-gray-300 bg-[#ecf0f3]'
                       type='text'
                       name='name'
                     />
