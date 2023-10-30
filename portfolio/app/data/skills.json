@@ -10,7 +10,12 @@
         {
           "src": "/css.svg",
           "alt": "CSS"
-        },
+        }
+      ]
+    },
+    {
+      "title": "Languages",
+      "images": [
         {
           "src": "/js.svg",
           "alt": "JavaScript"
