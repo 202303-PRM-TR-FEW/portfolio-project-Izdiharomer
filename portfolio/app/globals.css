@@ -59,7 +59,7 @@ html {
   }
 
   .pink_button {
-    @apply shadow-md shadow-gray-400 rounded-xl uppercase bg-white text-[#F652A0];
+    @apply shadow-md shadow-gray-400 rounded-xl uppercase bg-[#F652A0] text-[#fff] focus:bg-[#fff]  focus:text-[#F652A0];
   }
 }
 
@@ -69,5 +69,43 @@ html {
 
 .gray {
   @apply text-gray-600
+}
+
+
+.inputGroup {
+  font-size: 1.25rem;
+  position: relative;
+  --primary: #2196f5;
+}
+
+.input {
+  all: unset;
+  color: #fefefe;
+  border: 1px solid #9e9e99;
+  padding: 0.2rem;
+  border-radius: 20px;
+  transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.label {
+  position: absolute;
+  top: 0.5rem;
+  left: 1rem;
+  color: #040404;
+  pointer-events: none;
+  transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input:focus {
+  border: 1px solid var(--primary);
+  
+}
+
+.input:focus + .label {
+  transform: translateY(-105%) scale(0.7);
+  background-color: #fff;
+  padding-inline: 0.3rem;
+  color: var(--primary);
+  
 }
 

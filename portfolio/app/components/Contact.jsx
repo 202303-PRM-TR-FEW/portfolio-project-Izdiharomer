@@ -83,51 +83,56 @@ const Contact = ({ isDarkMode, setIsDarkMode }) => {
                 method='POST'
                 encType='multipart/form-data'
               >
-                <div className='grid md:grid-cols-2 gap-2 w-full py-2'>
-                  <div className='flex flex-col'>
-                    <label className='uppercase text-sm py-1'>Name</label>
+                <div className='grid md:grid-cols-2 gap-4 w-full '>
+                  <div className='inputGroup flex flex-col'>
                     <input
-                      className='border-2 rounded-lg p-1  flex border-gray-300 bg-[#ecf0f3]'
+                      className='input border-2 flex border-gray-300 bg-[#ecf0f3]'
                       type='text'
                       name='name'
+                      required
                     />
+                    <label className='label text-sm'>Fullname</label>
                   </div>
-                  <div className='flex flex-col'>
-                    <label className='uppercase text-sm py-1'>
-                      Phone Number
-                    </label>
+                  <div className='inputGroup flex flex-col'>
                     <input
-                      className='border-2 rounded-lg p-1 flex border-gray-300 bg-[#ecf0f3]'
+                      className='border-2 input p-1 flex border-gray-300 bg-[#ecf0f3]'
                       type='text'
                       name='phone'
+                      required
                     />
+                    <label className='label text-sm'>
+                      Phone Number
+                    </label>
                   </div>
                 </div>
-                <div className='flex flex-col py-2'>
-                  <label className='uppercase text-sm py-1'>Email</label>
+                <div className='inputGroup flex flex-col my-4 '>
                   <input
-                    className='border-2 rounded-lg p-1 flex border-gray-300 bg-[#ecf0f3]'
+                    className='input border-2 flex border-gray-300 bg-[#ecf0f3]'
                     type='email'
                     name='email'
+                    required
                   />
+                  <label className='label text-sm'>Email</label>
                 </div>
-                <div className='flex flex-col py-2'>
-                  <label className='uppercase text-sm py-1'>Subject</label>
+                <div className='inputGroup flex flex-col'>
                   <input
-                    className='border-2 rounded-lg p-1 flex border-gray-300 bg-[#ecf0f3]'
+                    className='input border-2 flex border-gray-300 bg-[#ecf0f3]'
                     type='text'
                     name='subject'
+                    required
                   />
+                  <label className='label text-sm'>Subject</label>
                 </div>
                 <div className='flex flex-col py-2'>
-                  <label className='uppercase text-sm py-1'>Message</label>
+                  <label className='text-sm py-1 px-4'>Message</label>
                   <textarea
-                    className='border-2 rounded-lg p-3 border-gray-300 bg-[#ecf0f3]'
-                    rows='10'
+                    className='focus:border-blue-500 rounded-lg p-3 b bg-[#ecf0f3] border-[#F652A0]'
+                    rows='15'
                     name='message'
+                    required
                   ></textarea>
                 </div>
-                <button className='w-full p-2 text-gray-500 mt-4 pink_button'>
+                <button className='w-full p-2 mt-4 rounded-2xl uppercase  bg-[#25D366] text-[#fff] focus:bg-[#197f4c]'>
                   Send Message
                 </button>
               </form>

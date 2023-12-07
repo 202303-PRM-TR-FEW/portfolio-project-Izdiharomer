@@ -16,7 +16,7 @@ function Main() {
         I am passionate about creating user-friendly interfaces that provide a seamless and enjoyable experience for users. Through my expertise in frontend development, I strive to craft interfaces that are not only visually appealing but also intuitive and easy to navigate
         </p> 
         <a href="/assets/izdihar-resume.pdf"  target="_blank">
-          <button className='pink_button p-2 text-bold bg-transparent'>Download CV</button>
+          <button className='pink_button p-2 text-bold'>Download CV</button>
         </a>
       </div>
     </div>

@@ -41,7 +41,7 @@ const Skills = () => {
                         className='w-[54px] h-[54px] bg-[#fff] rounded-full p-2'
                       />
                       {hoveredText === image.alt && (
-                        <div className='absolute  p-1 text-sm rounded-lg shadow-md'>
+                        <div className='absolute  p-1 text-sm text-blue-800 rounded-lg shadow-md'>
                           {hoveredText}
                         </div>
                       )}
